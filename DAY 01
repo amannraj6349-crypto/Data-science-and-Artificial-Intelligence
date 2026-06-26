@@ -1,0 +1,97 @@
+# Installation Process for Python, VS Code, and Anaconda (Windows)
+|
+|--> Follow these steps to install all three tools on your Windows computer
+   
+    1. Install Python
+
+       Step 1: Download Python
+         Open your browser.
+         Go to the official Python website:
+         [https://www.python.org/downloads/](https://www.python.org/downloads/)
+         Click **Download Python** (latest stable version).
+
+       Step 2: Install Python
+
+         1. Open the downloaded `.exe` file.
+         2. **Important:** Check the box:
+         ☑ Add Python to PATH
+         3. Click **Install Now**.
+         4. Wait until the installation finishes.
+         5. Click **Close**.
+
+       Step 3: Verify Installation
+         1. Press **Win + R**, type `cmd`, and press **Enter**.
+         2. Run:
+         python --version
+         or
+         py --version
+        If installed correctly, you'll see something like:
+
+       Python 3.13.x
+    2. Install Visual Studio Code (VS Code)
+
+        Step 1: Download VS Code
+         * Go to the official website:
+         * [https://code.visualstudio.com/](https://code.visualstudio.com/)
+         * Click **Download for Windows**.
+
+       Step 2: Install VS Code
+         1. Open the downloaded installer.
+         2. Click **Next** until you reach **Additional Tasks**.
+         3. Check these options:
+
+         * ☑ Add "Open with Code" action
+         * ☑ Add to PATH
+         * ☑ Register Code as an editor
+
+    4. Click **Install**.
+    5. Click **Finish**.
+
+       Step 3: Verify Installation
+
+
+
+# 3. Install Anaconda
+
+       Step 1: Download Anaconda
+
+         * Visit the official website:
+         * [https://www.anaconda.com/download](https://www.anaconda.com/download)
+         Choose the **Windows 64-bit Installer**.
+
+       Step 2: Install Anaconda
+         1. Run the installer.
+         2. Click **Next**.
+         3. Accept the license agreement.
+         4. Choose **Just Me** (recommended).
+         5. Select the installation folder.
+         6. Click **Install**.
+         7. Wait for the installation to complete.
+         8. Click **Finish**.
+
+> **Note:** You usually do **not** need to add Anaconda to your PATH. The default installation is recommended.
+
+
+     4. Install the Python Extension in VS Code
+         1. Open VS Code.
+         2. Click the **Extensions** icon (or press **Ctrl + Shift + X**).
+         3. Search for: Python
+         4. Install the extension published by **Microsoft**.
+
+ 5. Test Python in VS Code
+
+1. Create a new file named: hello.py
+     2. Write the following code:
+        print("Hello, World!")
+     3. Click the **Run** button (▶) in the top-right corner.
+        Expected output:
+           Hello, World!
+
+    6. Verify Everything
+
+      Run these commands:
+         for python
+             python --version        
+             code --version
+             conda --version
+If all three commands return version numbers, your setup is complete.
