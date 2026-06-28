@@ -1,0 +1,104 @@
+START
+  │
+  ▼
+What is Programming?
+  │
+  ▼
+Programming = Writing Instructions for a Computer
+  │
+  ▼
+Why Do We Need Programming Tools?
+  │
+  ▼
+Choose a Development Tool (IDE/Editor)
+  │
+  ▼
+Compare Development Tools
+  │
+  ├──► VS Code
+  │       │
+  │       └──► Advanced Code Editor
+  │
+  ├──► JupyterLab
+  │       │
+  │       └──► Best for Data Science
+  │
+  └──► Jupyter Notebook
+          │
+          └──► Simple & Beginner Friendly
+  │
+  ▼
+Why is JupyterLab Preferred?
+  │
+  ▼
+What is Jupyter?
+  │
+  ▼
+Open-Source Interactive Computing Platform
+  │
+  ▼
+Key Features
+  │
+  ├──► Write & Run Code
+  ├──► Visualize Data
+  ├──► Combine Code + Text
+  ├──► Supports Multiple Languages
+  └──► Share & Collaborate
+  │
+  ▼
+Why Use Jupyter?
+  │
+  ├──► Data Analysis
+  ├──► Machine Learning
+  ├──► Research
+  ├──► Learning
+  ├──► Prototyping
+  └──► Cloud Support
+  │
+  ▼
+Common Jupyter Tools
+  │
+  ├──► Jupyter Notebook (Classic)
+  └──► JupyterLab (Modern)
+  │
+  ▼
+Need a Python Environment?
+  │
+  ▼
+Conda & Anaconda
+  │
+  ├──► Conda
+  │       ├── Package Manager
+  │       ├── Environment Manager
+  │       └── Dependency Manager
+  │
+  └──► Anaconda
+          ├── Includes Python
+          ├── Includes Conda
+          ├── 150+ Data Science Packages
+          └── Includes Jupyter Tools
+  │
+  ▼
+Essential Conda Commands
+  │
+  ├──► conda init
+  ├──► conda env list
+  ├──► conda create -n myenv
+  └──► conda activate myenv
+  │
+  ▼
+Install Jupyter
+  │
+  ├──► conda install jupyter
+  │       │
+  │       └──► jupyter notebook
+  │
+  └──► conda install jupyterlab
+          │
+          └──► jupyter lab
+  │
+  ▼
+Start Coding in Jupyter
+  │
+  ▼
+END
